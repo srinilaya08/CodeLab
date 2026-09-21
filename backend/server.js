@@ -422,7 +422,12 @@ socket.on("disconnect", () => {
 app.get("/", (req, res) => {
   res.send("CodeLab backend is running!");
 });
-
+app.get("/health", (req, res) => {
+  res.json({
+    status: "ok",
+    service: "CodeLab backend",
+  });
+});
 server.listen(PORT, () => {
   console.log(`CodeLab backend server is running on port ${PORT}`);
 });
