@@ -13,7 +13,7 @@ CodeLab is a full-stack, browser-based collaborative coding platform where users
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/homepage.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
