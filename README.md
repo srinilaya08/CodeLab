@@ -153,7 +153,7 @@ codelab/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/srinilaya08/CodeLab.git
 cd codelab
 ```
 
